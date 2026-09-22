@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main(){
-    factorial(int n){
+    int n;
+    printf("Enter your number");
+    scanf("%d",number);
         if(n==0 || n==1){
             return 1;
         }
