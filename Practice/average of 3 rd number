@@ -11,4 +11,5 @@ int main() {
     printf("The average of the three numbers is: %d\n", average);
     return 0;
 
+
 }    
