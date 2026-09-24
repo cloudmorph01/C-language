@@ -4,10 +4,10 @@ int main(){
     printf("Enter a number: ");
     scanf("%d", &number);
     if(number>= 40){
-        printf("The student has passed.\n");
+        printf("student passed.\n");
     }
     else{
-        printf("The student has failed.\n");
+        printf("student failed.\n");
     }
     return 0;
 }
