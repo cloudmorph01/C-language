@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int main=3;
-    printf("%d", main);
+    int i;
+    printf("%d\n",&i);
     return 0;
 }

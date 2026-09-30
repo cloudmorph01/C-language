@@ -1,6 +1,5 @@
 #include<stdio.h>
 int main(){
-    int main=3;
-    printf("%d", main);
+    printf("%c\n",~('c'*-1));
     return 0;
 }
