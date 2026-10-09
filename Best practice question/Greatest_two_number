@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int n, m;
+    printf("Enter your number:");
+    scanf("%d %d", &n, &m);
+    if (n > m)
+    {
+        printf("%d greatest", n);
+    }
+    else
+    {
+        printf("%d greatest", m);
+    }
+    return 0;
+}
