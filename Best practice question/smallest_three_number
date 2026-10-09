@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int n, m, o;
+    printf("Enter your number:");
+    scanf("%d %d %d", &n, &m, &o);
+    if (n < m && n < o)
+    {
+        printf("%d Smallest", n);
+    }
+    else if (m < n && m < o)
+    {
+        printf("%d Smallest", m);
+    }
+    else
+    {
+        printf("%d Smallest", o);
+    }
+    return 0;
+}
